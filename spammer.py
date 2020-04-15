@@ -4,20 +4,20 @@ from colorama import Fore, Back, Style
 banner = """
  ____________________________________________________
 |                                                    |
-| [--] Name: SMSomer                                 |
+| [--] Name: Spammer                                 |
 |                                                    |
 | [--] Have Services: 51                             |
 |                                                    |
-| [--] Created by: @c3berman                         |
+| [--] Created by: KOT                        |
 |                                                    |
-| [--] Telegram channel: @detectent                  |
+| [--] Telegram channel: @gd_mods                 |
 |                                                    |
-| [--] Version: 1.0.6                                |
+| [--] Version: 0.0.1                       |
 |____________________________________________________|
 """
 
 print(banner)
-_phone = input('Hello! Number for attack (79xxxxxxxxx)-->> ')
+_phone = input('Привет! Номер для аттаки(без +)-->> ')
 
 if _phone[0] == '+':
 	_phone = _phone[1:]
